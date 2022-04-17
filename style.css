@@ -1,19 +1,13 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
-.bodypage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body {
+    margin: 0;
 }
 
+
 .hero {
-    display: flex;
-    flex-direction: column;
-    /*width: 800px;*/
-    background-color: #1F2937;
-    color: white;
+    background-color: #1f2937;;
 }
 
 .heroheader {
@@ -24,27 +18,25 @@
 }
 
 .headerlogo {
-    margin: 5px;
-    padding: 5px;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 20px;;
 }
 
 .headerlinks {
     display: flex;
     flex-direction: row;
+}
+
+.headerlinks li {
     list-style-type: none;
-    padding-inline-start: 0px;
-    
+    padding-inline-start: 0;
 }
-.headerlinks li a{
-    padding: 10px;
+
+.headerlinks li a {
     text-decoration: none;
-    color: black;
-    border-radius: 12px;
-    color: white;
+    padding: 8px;
+    color: #e5e7eb;
 }
-.headerlinks li a:hover {
-    background-color: rgb(244, 244, 244);
-}
+
 
