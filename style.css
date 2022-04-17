@@ -5,9 +5,12 @@ body {
     margin: 0;
 }
 
-
 .hero {
-    background-color: #1f2937;;
+    background-color: #1f2937;
+}
+
+.herocontent{
+    margin: 0 50px;
 }
 
 .heroheader {
@@ -18,9 +21,10 @@ body {
 }
 
 .headerlogo {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     margin: 20px;;
+    font-weight: bold;
 }
 
 .headerlinks {
@@ -35,8 +39,11 @@ body {
 
 .headerlinks li a {
     text-decoration: none;
-    padding: 8px;
+    padding: 12px;
     color: #e5e7eb;
+    border-radius: 10px;
 }
-
+.headerlinks li a:hover{
+    background-color: #2b3747;
+}
 
