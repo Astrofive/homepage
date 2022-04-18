@@ -5,3 +5,58 @@ body {
     margin: 0;
 }
 
+.section.first {
+    background-color: #2c2f4c;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerlinks ul {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.headerlinks ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.headerlinks ul li a:hover {
+    background-color: #3d4060;
+}
+
+.hero {
+    display: flex;
+}
+
+.herotitle {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.herosubtitle {
+    color:#ffffffac
+}
+
+.button {
+    background-color: rgb(54, 54, 244);
+    padding: 10px 25px;
+}
+
+.heroright {
+    background-color: grey;
+}
