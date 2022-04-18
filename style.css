@@ -155,6 +155,7 @@ button:hover {
 
 .section.fourth {
     background-color: #ffffff;
+    margin: 50px 0;
 }
 
 .calltoaction {
@@ -188,4 +189,13 @@ button:hover {
 .calltoaction button:hover {
     background-color: white;
     color: #276fd5;
+}
+
+.section.fifth {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.footertext {
+    text-align: center;
 }
